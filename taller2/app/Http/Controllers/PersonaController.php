@@ -10,9 +10,9 @@ class PersonaController extends Controller
     {
         // Lista de objetos Persona
         $personas = [
-            (object) ["nombre" => "Diego Ruales", "edad" => 25, "rol" => "Estudiante"],
-            (object) ["nombre" => "Ana Gabriela", "edad" => 35, "rol" => "Docente"],
-            (object) ["nombre" => "Luis Arturo Rosado", "edad" => 40, "rol" => "Coordinador"]
+            (object) ["nombre" => "Carmen Espinoza", "edad" => 19, "rol" => "Estudiante"],
+            (object) ["nombre" => "Julian Acosta", "edad" => 29, "rol" => "Docente"],
+            (object) ["nombre" => "Andres Hidalgo", "edad" => 42, "rol" => "Coordinador"]
         ];
 
         // Enviar la lista a la vista
